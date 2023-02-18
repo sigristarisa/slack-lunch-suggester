@@ -1,0 +1,25 @@
+{
+  "name": "slack-lunch-suggester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sigristarisa/slack-lunch-suggester.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sigristarisa/slack-lunch-suggester/issues"
+  },
+  "homepage": "https://github.com/sigristarisa/slack-lunch-suggester#readme",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20"
+  }
+}

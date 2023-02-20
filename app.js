@@ -1,6 +1,6 @@
 const { App } = require("@slack/bolt");
-const { VercelRequest, VercelResponse } = require("@vercel/node");
-const data = require("../locations.json");
+// const { VercelRequest, VercelResponse } = require("@vercel/node");
+const data = require("./locations.json");
 require("dotenv").config();
 
 const app = new App({

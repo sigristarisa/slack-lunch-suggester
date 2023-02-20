@@ -1,12 +1,13 @@
 const { App } = require("@slack/bolt");
-const data = require("./locations.json");
+const { VercelRequest, VercelResponse } = require("@vercel/node");
+const data = require("../locations.json");
 require("dotenv").config();
 
 const app = new App({
   token: process.env.SLACK_BOT_TOKEN,
   signingSecret: process.env.SLACK_SIGNING_SECRET,
   appToken: process.env.SLACK_APP_TOKEN,
-  // socketMode: true,
+  socketMode: true,
 });
 
 const getLocation = () => {

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sigristarisa/slack-lunch-suggester#readme",
   "dependencies": {
     "@slack/bolt": "^3.12.2",
+    "@vercel/node": "^2.9.6",
     "dotenv": "^16.0.3",
     "nodemon": "^2.0.20"
   }

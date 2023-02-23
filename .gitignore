@@ -105,3 +105,6 @@ dist
 
 #location data
 locations.json
+
+#serverless config
+serverless.yml
